@@ -121,7 +121,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>cht</string>
+				<string>cheat</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -173,6 +173,27 @@ python3 cheat.py "{query}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>cfgcheat</string>
+				<key>subtext</key>
+				<string>e.g. /Users/janedoe/.cheat or ~/.cheat</string>
+				<key>text</key>
+				<string>Configure your cheat sheet directory</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8D97B77C-E924-4B74-84F8-DCD90968EEAA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -193,27 +214,6 @@ python3 config.py "{query}"</string>
 			<string>A6FA6395-A792-4367-9D59-7B4619B74892</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>cfcht</string>
-				<key>subtext</key>
-				<string>e.g. /Users/janedoe/.cheat or ~/.cheat</string>
-				<key>text</key>
-				<string>Configure your cheat sheet directory</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>8D97B77C-E924-4B74-84F8-DCD90968EEAA</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -239,7 +239,7 @@ python3 config.py "{query}"</string>
 			<key>xpos</key>
 			<real>145</real>
 			<key>ypos</key>
-			<real>545</real>
+			<real>540</real>
 		</dict>
 		<key>92C80F9D-D58C-469A-9534-FCEC27394F49</key>
 		<dict>
